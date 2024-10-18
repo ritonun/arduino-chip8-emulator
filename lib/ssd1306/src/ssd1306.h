@@ -5,8 +5,8 @@
 
 #define SSD1306_ADDR 0x3C
 
-void initializeScreen();
-void sendCommand();
+void initializeSSD1306();
+uint8_t sendCommand(uint8_t command);
 void fillColor(uint8_t byte);
 
 #endif
